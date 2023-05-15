@@ -1,0 +1,73 @@
+header{ color: white;
+    background-image:url(../assets/mahir.jpg);
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+#navi{
+display:flex;
+align-items: center;
+justify-content: center;
+background-color: #1d4018;
+height: 50px;    
+
+
+
+}
+.navLink{
+
+width: 100%;
+height: 50px;
+text-decoration: none;
+text-align: center;
+align-self: center;
+color:whitesmoke;
+font-size: 20px;
+
+
+}
+
+#navLink:hover {
+color: red;
+background-color: pink;
+}
+
+#banner-text {
+ font-size: 100px;
+ text-shadow: 2px 2px black;
+ text-align: center;
+
+
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.radio{
+    align-self: start;
+}
+fieldset{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#h1Detail{
+    background-color: rgb(9, 89, 89);
+    color: whitesmoke;
+    margin-left:20%;
+    width: 60%;
+
+    text-align: center;
+}

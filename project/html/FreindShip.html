@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ust</title>
+    <link rel="stylesheet" href="../css/styleFriendship.css">
+   
+</head>
+
+<header>
+      <h1 id="banner-text"> Mahir's portfolio</h1>
+    
+ </header>
+ <nav id="navi">
+ <a class="navLink" href="index.html">Home</a> 
+ <a class="navLink" href="education.html">Education</a> 
+ <a class="navLink" href="sports.html">Sports</a> |
+ <a class="navLink" href="FreindShip.html">Friendship</a> 
+ <a class="navLink" href="products.html">Selling Products</a> 
+ <a class="navLink" href="aboutme.html">About Me</a> 
+
+ 
+</nav>
+
+<body>
+    <h1 id="h1Detail">If you want to be my freind, Please provide your details:</h1>
+    <form id ="form" action="#">
+        <label >Name</label>
+        <input type="text"  name="name" required/>
+        <label>Email</label>
+        <input type="email" name="email" pattern="\D+\@\D+"/>
+        <label >Your Details including Hobby</label>
+       
+        <textarea rows="4" cols="50" placeholder="Write about yourself..."  required></textarea>
+        <fieldset>
+            <legend>Want to buildup Friendship with Me ?</legend>
+            <input type="radio" id="yes" value="yes" name= "newsletter" class ="radio" checked="true" ></input>
+            <label for="yes">yes</label> 
+            <input type="radio" id="no" value="no" name="newsletter" class ="radio"></input>
+            <label for="no">no</label> 
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form> 
+    
+   
+</body>
+</html>

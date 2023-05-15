@@ -1,0 +1,107 @@
+body{ margin: 0px;
+
+}
+header{ color: white;
+        background-image:url(../assets/mahir.jpg);
+         height: 200px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+}
+#navi{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #1d4018;
+ height: 50px;    
+ 
+ 
+
+}
+.navLink{
+
+width: 100%;
+height: 50px;
+text-decoration: none;
+text-align: center;
+align-self: center;
+color:whitesmoke;
+font-size: 20px;
+
+
+}
+
+#navLink:hover {
+ color: red;
+background-color: pink;
+}
+
+ #banner-text {
+     font-size: 100px;
+     text-shadow: 2px 2px black;
+     text-align: center;
+   
+
+ }
+ #mahirPortfolio{
+     text-align: center;
+
+ }
+ #author{
+
+     text-align: center;
+ }
+ #blog-post{
+
+     display:flex ;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 50px;
+     max-width: 70%;
+     justify-content: space-between;
+     gap: 15px;
+     
+ }
+ #blog-image{
+     display: block;
+     margin: auto;
+     border-radius: 10px;
+     
+ }
+ div{
+     border-width: 2px;
+     border-style: solid;
+     border-color: #1d4018;
+     background-color: #a6d0a1;
+     padding:10px ;
+     
+ }
+ footer{
+    height: 50px;
+    background-color:#1d4018 ;
+    
+ }
+
+ #footerLink{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items:center ;
+    gap: 15px;
+   
+
+
+ }
+ #footerP{
+     color:white;
+ }
+ p{
+    font-size: 17px;
+    font-weight: bold;
+ }
+ li{
+    font-size: 17px;
+    font-weight: bold;
+ }
